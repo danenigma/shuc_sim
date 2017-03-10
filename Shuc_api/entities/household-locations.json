@@ -1,0 +1,33 @@
+{
+  "id": "9c991bba-2ea0-4604-94a1-6e8bc23ef78c",
+  "name": "household-locations",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "kitchen",
+      "synonyms": [
+        "kitchin"
+      ]
+    },
+    {
+      "value": "bedroom",
+      "synonyms": [
+        "bedroom"
+      ]
+    },
+    {
+      "value": "livingroom",
+      "synonyms": [
+        "livingroom"
+      ]
+    },
+    {
+      "value": "bathroom",
+      "synonyms": [
+        "bathroom"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

@@ -1,0 +1,30 @@
+{
+  "userSays": [
+    {
+      "id": "9e4a0820-6f46-421d-b5b2-1cf49726b62a",
+      "data": [
+        {
+          "text": "what is your name"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "40c1420f-dc50-4932-9237-65a60261db94",
+  "name": "chatbot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

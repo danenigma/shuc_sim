@@ -1,0 +1,128 @@
+{
+  "userSays": [
+    {
+      "id": "4cfcc3b8-ab9e-4e29-bcc6-dfab959a5eaf",
+      "data": [
+        {
+          "text": "shuc please come to the "
+        },
+        {
+          "text": "bedroom",
+          "alias": "household-locations",
+          "meta": "@household-locations",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e173ca37-9383-4dc7-a595-737cd4fb4f24",
+      "data": [
+        {
+          "text": "shuc go to the "
+        },
+        {
+          "text": "bedroom",
+          "alias": "household-locations",
+          "meta": "@household-locations",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "22b348c3-aff6-43a1-8189-d6cbfccc0349",
+      "data": [
+        {
+          "text": "come to the "
+        },
+        {
+          "text": "bathroom",
+          "alias": "household-locations",
+          "meta": "@household-locations",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "233dba30-8d74-404d-973d-5970eb199f4f",
+      "data": [
+        {
+          "text": "go to the living room"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7d0519f-8538-4a47-ba92-5c3dc9edf93c",
+      "data": [
+        {
+          "text": "go to the bathroom"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f54bec09-b408-4b8a-b4eb-7d4c8febc47e",
+      "data": [
+        {
+          "text": "come to the livingroom"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5efebdb5-1f1f-46dd-9a90-7b0ddb3c0bfc",
+      "data": [
+        {
+          "text": "go to the kitchin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8169b7ad-59af-4b91-8175-06f858daeee8",
+  "name": "goto.place",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "go_to",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@household-locations",
+          "name": "place",
+          "isList": true
+        },
+        {
+          "dataType": "@household-locations",
+          "name": "household-locations",
+          "value": "$household-locations",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I am going to the $place"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

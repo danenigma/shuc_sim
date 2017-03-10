@@ -1,0 +1,169 @@
+{
+  "userSays": [
+    {
+      "id": "bf345752-b7eb-4793-add6-78c9bc346af0",
+      "data": [
+        {
+          "text": "shuc move "
+        },
+        {
+          "text": "right",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec71531b-87e4-46f4-9e55-729c7b569686",
+      "data": [
+        {
+          "text": "shuc move "
+        },
+        {
+          "text": "left",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efb2bf20-a090-4c49-9b77-338708b9d628",
+      "data": [
+        {
+          "text": "shuc go "
+        },
+        {
+          "text": "forwards",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c563338-b83f-46d0-a783-7abb966e1951",
+      "data": [
+        {
+          "text": "shuc go "
+        },
+        {
+          "text": "backwards",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c303484-15ac-4708-91a1-8b364fb2dc52",
+      "data": [
+        {
+          "text": "shuc move "
+        },
+        {
+          "text": "back",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c8ce116-a49b-4942-9efd-f755122a4b19",
+      "data": [
+        {
+          "text": "shuc move "
+        },
+        {
+          "text": "forward",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ad19346-2259-43d7-b278-f02f93a3c340",
+      "data": [
+        {
+          "text": "shuc turn "
+        },
+        {
+          "text": "right",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8566ed6f-ed83-401b-b9fe-3a8de5541c97",
+      "data": [
+        {
+          "text": "shuc turn "
+        },
+        {
+          "text": "left",
+          "alias": "command",
+          "meta": "@command",
+          "userDefined": false
+        },
+        {
+          "text": ""
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1944e1ad-29b7-4b68-8b2e-9caf05c5dc9d",
+  "name": "move.command",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "move",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@command",
+          "name": "command",
+          "value": "$command",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "turning $command",
+            "going $command"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "5573ce55-4c93-414e-a24c-a6d7cc2c2d1f",
+  "name": "command",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "left",
+      "synonyms": [
+        "left"
+      ]
+    },
+    {
+      "value": "right",
+      "synonyms": [
+        "right"
+      ]
+    },
+    {
+      "value": "forward",
+      "synonyms": [
+        "forward"
+      ]
+    },
+    {
+      "value": "backward",
+      "synonyms": [
+        "backward",
+        "back"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

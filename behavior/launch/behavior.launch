@@ -1,0 +1,3 @@
+<launch>
+	<node pkg = "behavior" name = "BEHAVIOR" type = "behavior.py"/>
+</launch>

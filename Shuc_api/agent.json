@@ -1,0 +1,35 @@
+{
+  "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on",
+    "social-networks-domain-on",
+    "weather-domain-on",
+    "wisdom-domain-on",
+    "news-domain-on",
+    "contacts-call-domain-on",
+    "contacts-sms-domain-on",
+    "reminders-notifications-domain-on",
+    "learning-domain-on",
+    "smart-home-domain-on"
+  ],
+  "enableFulfillment": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1"
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false
+  },
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}

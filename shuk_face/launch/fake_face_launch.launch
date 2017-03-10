@@ -1,0 +1,15 @@
+<launch>
+   <arg name="speed" default="1.5" />
+   <arg name="rate" default="20" />
+   <arg name="move_target_rate" default="20" />
+   <arg name="face_cascade_path" default="$(find shuk_face)/data/haarcascade_frontalface_default.xml" />
+   <arg name="capture_device" default="0" />
+   <node pkg="shuk_face" name="shuk_fake_face" type="face_pub.py" clear_params="true" output="screen" >
+     <param name="rate" value="$(arg rate)" />
+     <param name="move_target_rate" value="$(arg move_target_rate)" />
+     <param name="speed" value="$(arg speed)" />
+     <param name="face_cascade_path" value="$(arg face_cascade_path)" />
+     <param name="capture_device" value="$(arg capture_device)" />
+     
+   </node>
+</launch>

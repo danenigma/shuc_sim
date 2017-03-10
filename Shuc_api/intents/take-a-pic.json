@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "1ce141dc-52f8-434f-8e3b-6f1cd3f4df4a",
+      "data": [
+        {
+          "text": "shuc take a picture"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "632a1110-f0d4-4f8e-bb5a-e1e4ab58ff55",
+      "data": [
+        {
+          "text": "shuc take a photo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b8fe3f9-684e-4463-a5d6-339f529f4ac7",
+      "data": [
+        {
+          "text": "take a photo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11c718bb-743b-4c00-b8a7-505737577022",
+      "data": [
+        {
+          "text": "take  a picture"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6d90b3b-d68e-4b14-8a24-d9c60bbe5f38",
+      "data": [
+        {
+          "text": "take  a pic"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "852ac6ba-9343-4734-a531-f8f6230318b9",
+  "name": "take-a-pic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "take-a-pic",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ok get ready"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

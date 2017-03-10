@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="shuk_face" name="FaceTracker" type="my_face_tracker.py" output="screen"/>
+</launch>

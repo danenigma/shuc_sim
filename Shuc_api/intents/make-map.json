@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "b12afe5b-da26-490d-ac6d-6f6981c7ae00",
+      "data": [
+        {
+          "text": "make this map"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da31682c-b21e-45d5-9e86-0692db4cbb27",
+      "data": [
+        {
+          "text": "please  map the house"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f887b220-71f4-44f4-8a42-a5c23945a542",
+      "data": [
+        {
+          "text": "shuc map the house"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "448d7adb-2d88-427d-8dd4-164e3f6fc74d",
+      "data": [
+        {
+          "text": "map the house"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a1581d3-75d4-4691-8f20-5f64381966c3",
+      "data": [
+        {
+          "text": "create a map of the house"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "791bba7a-ef55-44d7-a2c8-90149cb7d14c",
+      "data": [
+        {
+          "text": "shuc make a map of the house"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04c74b0d-1a68-448b-9fbf-570043f7e637",
+      "data": [
+        {
+          "text": "make map of the house"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fad506ea-33a4-411e-b932-06ea26c12e9e",
+  "name": "make-map",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "map-house",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ok i will make a map"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

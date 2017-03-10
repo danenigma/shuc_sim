@@ -1,0 +1,11 @@
+<launch>
+  <node name="speech_ip_setter" pkg="speech_recognition" type="ip_setter.py" output="screen">
+     <param name="interface" value="wlan0" />
+     
+  </node> 
+  <node pkg = "speech_recognition" name="speech_server" type = "speech_server.py" output="screen">
+	 <param name ="s_port" value = "9000"/>
+	 <param name="publish_to" value="speech" />
+	 
+  </node>
+</launch>

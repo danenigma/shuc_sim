@@ -1,0 +1,5 @@
+<launch>
+	<include file = "$(find shuk_face)/launch/shuk_face.launch"/>
+	<include file = "$(find shuk_face)/launch/fake_face_launch.launch"/>
+	<include file = "$(find shuk_face)/launch/head_tracking.launch"/>
+</launch>

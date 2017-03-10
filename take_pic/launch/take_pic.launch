@@ -1,0 +1,5 @@
+<launch>
+	<node pkg = "take_pic" name = "take_pic" type = "take_pic.py">
+		<param name = "data_path" value = "$(find take_pic)/data"/>
+	</node>
+</launch>
